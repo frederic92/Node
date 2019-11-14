@@ -1,0 +1,50 @@
+////////// ================== AUTH FORM ============//////////////
+.form-block {
+    -webkit-box-shadow: 0px 2px 23px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 23px -6px rgba(0,0,0,1);
+    box-shadow: 0px 2px 23px -6px rgba(0,0,0,1);
+    margin-top: 60px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    h1 {
+      text-align: center;
+      font-weight: 700;
+    }
+    .form-body {
+      label, em {
+        color: #8A8D91;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      input {
+        box-shadow: none;
+        background-color: #E8EBED;
+        &:focus {
+          background-color: white;
+          border: 2px solid #E8EBED;
+        }
+      }
+      .btn {
+        background-color: #7B16FF;
+        color: #ffffff;
+        border-color: #7B16FF;
+        border-radius: 25px;
+        font-weight: 700;
+      }
+      a {
+        color: #8A8D91;
+        font-size: 14px;
+      }
+      .alert-error {
+        background-color: red;
+        color: white;
+        .close {
+          color: white;
+          margin-left: 3px;
+        }
+      }
+  
+    }
+  }//========================== Auth form =====================
+  
